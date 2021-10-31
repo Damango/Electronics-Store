@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+.electronics-app-container {
+	position: relative;
+	background-color: rgb(230, 230, 230);
+	width: 100vw;
+	height: 100vh;
+	display: grid;
+	grid-template-rows: 65px auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-bar-container {
+	position: relative;
+	background-color: #2f3640;
+	width: 100%;
+	height: 65px;
+	color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-view-container {
+	position: relative;
+	background-color: orange;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.landing-page-container {
+	position: relative;
+	background-color: red;
 }
 
-.App-link {
-  color: #61dafb;
+.landing-page-jumbotron {
+	background-color: rgb(172, 172, 172);
+	height: 500px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.product-card-container {
+	position: relative;
+	background-color: white;
+	width: 240px;
+	height: 300px;
 }
