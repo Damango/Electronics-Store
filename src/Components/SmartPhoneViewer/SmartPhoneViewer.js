@@ -48,7 +48,7 @@ const SmartPhoneViewer = () => {
                     </div>
                 </div>
 
-                <div className="product-options-container">
+                <div className="product-options-container product-box">
                     <div className="phone-type-selectors-container">
                         <div className="phone-selector-header">Models</div>
                         <div className="phone-type-container">
@@ -68,25 +68,68 @@ const SmartPhoneViewer = () => {
                         </div>
                     </div>
 
-                    <div className="phone-color-selectors-container">
+                    <div className="phone-color-selectors-container product-box">
                         <div className="phone-selector-header">Colors</div>
                         <div className="phone-color-selector-container">
-                            <div className="phone-color-name">Blue</div>
-                            <div className="phone-color-example"></div>
+                            <div className="phone-color-name">Sierra Blue</div>
+                            <div className="phone-color-example sierra-blue"></div>
                         </div>
                         <div className="phone-color-selector-container">
-                            <div className="phone-color-name">Blue</div>
-                            <div className="phone-color-example"></div>
+                            <div className="phone-color-name">Silver</div>
+                            <div className="phone-color-example silver"></div>
                         </div>
                         <div className="phone-color-selector-container">
-                            <div className="phone-color-name">Blue</div>
-                            <div className="phone-color-example"></div>
+                            <div className="phone-color-name">Graphite</div>
+                            <div className="phone-color-example graphite"></div>
+                        </div>
+                        <div className="phone-color-selector-container">
+                            <div className="phone-color-name">Gold</div>
+                            <div className="phone-color-example gold"></div>
                         </div>
                     </div>
+
+                    <div className="phone-capacity-selectors-container product-box">
+
+                        <div className="phone-selector-header">Capacity</div>
+
+                        <div className="phone-capacity-selector-wrapper">
+
+                            <div className="phone-capacity-selector-container">
+                                <div className="phone-capacity-amount">128GB</div>
+                                <div className="phone-capacity-price">$799 or $41.62/mo</div>
+                            </div>
+
+                            <div className="phone-capacity-selector-container">
+                                <div className="phone-capacity-amount">256GB</div>
+                                <div className="phone-capacity-price">$899 or $41.62/mo</div>
+                            </div>
+
+                            <div className="phone-capacity-selector-container">
+                                <div className="phone-capacity-amount">500GB</div>
+                                <div className="phone-capacity-price">$999 or $41.62/mo</div>
+                            </div>
+
+                            <div className="phone-capacity-selector-container">
+                                <div className="phone-capacity-amount">1TB</div>
+                                <div className="phone-capacity-price">$1099 or $41.62/mo</div>
+                            </div>
+
+                        </div>
+
+      
+
+                    </div>
+
+                    <div className="phone-price-sum-container">
+                        
+                    </div>
+
                 </div>
             </div>
+            
         </div>
 
+        
 
 
 

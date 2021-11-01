@@ -44,7 +44,7 @@ function App() {
 
 
 <div className="main-view-container">
- {viewStateHandler()}
+  {viewStateHandler()}
 </div>
 
 

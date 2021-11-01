@@ -18,6 +18,7 @@
 .main-view-container {
 	position: relative;
 	background-color: orange;
+	overflow: hidden;
 }
 
 .landing-page-container {
