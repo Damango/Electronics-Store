@@ -120,7 +120,11 @@ const SmartPhoneViewer = () => {
 
                     </div>
 
-                    <div className="phone-price-sum-container">
+                    <div className="phone-price-sum-container product-box">
+
+                        <div className="phone-selector-header">Summary</div>
+
+                        <div className="phone-model-selected">iPhone 13 Pro Max</div>
                         
                     </div>
 
